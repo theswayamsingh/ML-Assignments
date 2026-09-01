@@ -23,8 +23,8 @@ Predicting customer purchase decisions using demographic and financial parameter
 5. **Outlier Treatment:** IQR Quantile interpolation and capping.
 6. **Scaling:** Min-Max Normalizer and Z-score Standardization.
 7. **Feature Selection:**
-   - Variance Threshold (s^2 > tau)
-   - Pearson Correlation Matrix (r)
+   - Variance Threshold ($s^2 > \tau$)
+   - Pearson Correlation Matrix ($r$)
    - Chi-Square Test ($\chi^2 = \sum \frac{(O-E)^2}{E}$)
    - ANOVA F-Test ($F = \frac{MSB}{MSW}$)
    - Mutual Information ($MI(X; Y) = \sum P(x, y) \log_2 \frac{P(x,y)}{P(x)P(y)}$)
