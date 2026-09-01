@@ -43,7 +43,7 @@ All preprocessing estimators (imputation statistics, scaling means/standard devi
 ## Setup and Execution
 1. Clone the repository:
    ```bash
-   git clone https://github.com/theswayamsingh/ML-Assignment/ML-Preprocessing-Feature-Selection.git
+   git clone [https://github.com/](https://github.com/)theswayamsingh/ML-Assignment/ML-Preprocessing-Feature-Selection.git
    ```
 2. Install dependencies:
    ```bash
@@ -55,4 +55,7 @@ All preprocessing estimators (imputation statistics, scaling means/standard devi
 3. Run the complete notebook:
 
     Open notebooks/main_analysis.ipynb in Jupyter Notebook or Google Colab and run all cells.
+
+## Google Colab Link
+https://colab.research.google.com/github/theswayamsingh/ML-Assignments/blob/main/ML-Preprocessing-Feature-Selection/notebooks/main_analysis.ipynb
    
