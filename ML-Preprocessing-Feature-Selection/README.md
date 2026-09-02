@@ -45,7 +45,7 @@ All preprocessing estimators (imputation statistics, scaling means/standard devi
 ## Setup and Execution
 1. Clone the repository:
    ```bash
-   git clone https://github.com/theswayamsingh/ML-Assignment.git
+   git clone https://github.com/theswayamsingh/ML-Assignments.git
    ```
 2. Install dependencies:
    ```bash
