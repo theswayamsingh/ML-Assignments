@@ -33,17 +33,19 @@ Predicting customer purchase decisions using demographic and financial parameter
 All preprocessing estimators (imputation statistics, scaling means/standard deviations, outlier bounds, and one-hot categories) are fitted strictly on `df_train` and then applied to `df_test`.
 
 ## Before vs After Preprocessing Summary
-| Parameter | Before Preprocessing | After Preprocessing & Feature Selection |
-|---|---|---|
-| Records | 305 | 300 (Duplicates Removed) |
-| Features | 7 | 8 (Encoded & Filtered) |
-| Missing Values | 35 | 0 (Imputed via Training Median) |
-| Low-Variance Features | 1 | 0 (Removed `ConstantFeature`) |
+| Parameter | Before Preprocessing | After Preprocessing (Encoded) | After Feature Selection (Final) |
+|---|---|---|---|
+| **Total Rows** | 305 | 300 (Duplicates Removed) | 300 |
+| **Input Features** | 6 | 9 (OHE expanded) | 8 (`ConstantFeature` dropped) |
+| **Target Variable** | 1 (`Purchased`) | 1 (`Purchased`) | 1 (`Purchased`) |
+| **Total CSV Columns** | 7 | 10 | 9 |
+| **Missing Values** | 35 | 0 (Imputed via Training Median) | 0 |
+| **Low-Variance Features** | 1 (`ConstantFeature`) | 1 | 0 (Removed `ConstantFeature`) |
 
 ## Setup and Execution
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/](https://github.com/)theswayamsingh/ML-Assignment/ML-Preprocessing-Feature-Selection.git
+   git clone https://github.com/theswayamsingh/ML-Assignment/ML-Preprocessing-Feature-Selection.git
    ```
 2. Install dependencies:
    ```bash
